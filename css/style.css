@@ -72,6 +72,21 @@ button a{
 }
 
 /* media queries for other devices*/
+@media only screen and (max-width: 315px){
+    .container{
+        /* width:50% */
+    }
+    h2#name{
+        font-size: 15px
+    }
+    .skills{
+        padding: 5px
+    }
+    button#btn_hire{
+      padding: 15px 20px;
+      font-size: 13px;
+    }
+} 
 @media only screen and (min-width: 388px){
     h2#name{
         font-size: 20px
@@ -83,11 +98,11 @@ button a{
 } 
 @media screen and (min-width: 470px){
     .container{
-        width: 70%;
-        height: 400px
+        width: 85%;
+        /* height: 400px */
     }
     #dev_info{
-        padding-top: 120px;
+        /* padding-top: 120px; */
     }
     h2#name{
         font-size: 23px
@@ -97,10 +112,6 @@ button a{
     }
     button#btn_hire{
         width: 70%; 
-        margin-top: 100px  
-    }
-    img{
-        height: 400px;
     }
 }
 
@@ -109,10 +120,10 @@ button a{
         width: 60%;
     }
     #dev_info{
-        padding-top: 100px;
+        padding-top: 50px;
     }
     button#btn_hire{
-        margin-top: 120px;
+        /* margin-top: 70px; */
     }
 }
 @media screen and (min-width: 992px){
@@ -129,13 +140,13 @@ button a{
 
 @media screen and (min-width: 1150px){
     .container{
-        width: 50%;
+        width: 40%;
     }
     h2#name{
-        font-size: 35px;
+        font-size: 27px;
     }
     .skills{
-        font-size: 12px;
+        font-size: 10px;
     }
     button#btn_hire{
         width: 70%;
