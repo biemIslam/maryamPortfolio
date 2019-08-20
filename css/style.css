@@ -49,13 +49,17 @@ img{
 h2#name{
     font-size: 18px
 }
-button{
+.skills, .hire{
     border-radius: 30px;
     border: 1px solid rgb(67, 233, 117);
     color: rgb(67, 233, 117);
     background-color: transparent;
     padding: 5px 10px;
     font-size: 7px
+}
+button a{
+    text-decoration: none;
+    color: white;
 }
 #btn_hire{
     background-color: rgb(67, 233, 117);
@@ -64,13 +68,11 @@ button{
     color: white;
     margin-top: 70px;
     font-size: 10px;
+    cursor: pointer;
 }
 
 /* media queries for other devices*/
 @media only screen and (min-width: 388px){
-    .container{
-        /* height: 400px */
-    }
     h2#name{
         font-size: 20px
     }
@@ -90,7 +92,7 @@ button{
     h2#name{
         font-size: 23px
     }
-    button{
+    .skills{
         font-size: 9px
     }
     button#btn_hire{
@@ -132,7 +134,7 @@ button{
     h2#name{
         font-size: 35px;
     }
-    button{
+    .skills{
         font-size: 12px;
     }
     button#btn_hire{
