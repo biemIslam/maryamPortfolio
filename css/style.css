@@ -1,13 +1,13 @@
 /* styling for mobile screen devices */
 body{
-    background-color: #eee;
+    background-color: #E2E2E2;
 }
 .container{
     position: relative;
     top: 50px;
     background: white;
-    width: 100%;
-    height: 300px;
+    width: 50%;
+    height: 400px;
     margin: auto;
     border-radius: 5px;
 }
@@ -17,10 +17,10 @@ body{
 }
 img{
     max-width: 100%;
-    height: 296px; 
+    height: 400px;
 }
 #dev_img{
-    background-color: rgb(228, 222, 222);
+    background-color: rgb(211, 208, 208);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     position: relative;
@@ -68,14 +68,13 @@ button{
 
 /* media queries for other devices*/
 @media only screen and (min-width: 388px){
-    .container{
-        /* width: 50%; */
+    #dev_info{
+        padding-top: 100px;
     }
-    h2#name{
-        /* font-size: 15px */
-    }
-    button{
-        font-size: 5px
+    button#btn_hire{
+      margin-top: 120px;
+      padding: 15px 20px;
+      font-size: 13px;
     }
 } 
 @media screen and (min-width: 470px){
@@ -83,7 +82,7 @@ button{
         width: 75%;
     }
     button#btn_hire{
-        width: 70%;
+        width: 70%;   
     }
 }
 
@@ -93,9 +92,6 @@ button{
     }
 }
 @media screen and (min-width: 992px){
-    .container{
-        width: 50%;
-    }
     h2#name{
         font-size: 25px;
     }
@@ -105,9 +101,6 @@ button{
 }
 
 @media screen and (min-width: 1150px){
-    .container{
-        width: 50%;
-    }
     h2#name{
         font-size: 30px;
     }
