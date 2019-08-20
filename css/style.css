@@ -72,10 +72,19 @@ button a{
 }
 
 /* media queries for other devices*/
-@media only screen and (max-width: 315px){
-    .container{
-        /* width:50% */
+@media only screen and (max-width: 274px){
+    h2#name{
+        font-size: 15px
     }
+    .skills{
+        font-size: 5px;
+    }
+    button#btn_hire{
+      padding: 15px 20px;
+      font-size: 13px;
+    }
+} 
+@media only screen and (max-width: 315px){
     h2#name{
         font-size: 15px
     }
