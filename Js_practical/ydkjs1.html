@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>I-Dont-Know-Js</title>
+	</head>
+	<body>
+
+		<h1>Practice 1 pg32</h1>
+		<h2>Program to calculate total price of phone purchase</h2>
+
+	</body>
+
+	<script type="text/javascript">
+		const tax_rate = 0.08;
+		const phone_price = 300;
+		const accessory_price = 50;
+		const spending_threshold = 450;
+		const bank_balance = 50000
+
+		
+
+		// function phonePurchase(){
+		// 	var amount = 0;
+		// 	var acct_bal = Number(prompt('Enter your bank account_balance'));
+
+		// 	while(amount < acct_bal){
+
+		// 		 amount = amount + phone_price;
+
+		// 		 if (amount < spending_threshold) {
+		// 		 	amount = amount + accessory_price
+		// 		 }
+		// 	}
+		// 	return amount
+		// 	// console.log(amount);
+		// }
+
+		// // console.log(phonePurchase())
+		// amount = phonePurchase() * tax_rate;
+
+
+		// function purchaseAmt() {
+		// 	return amount.toFixed(2);
+		// }
+
+		// console.log('Your total purchase amount is $' + purchaseAmt());
+
+		var y = 1;
+		if (function f(){}) {
+			y += typeof f;
+		}
+		console.log(y)
+
+		function init() {
+			var name = 'Mozilla'; // name is a local variable created by init
+			function displayName() { // displayName() is the inner function, a closure
+				alert(name); // use variable declared in the parent function
+			}
+			displayName();
+		}
+		init();
+
+		function makeFunc() {
+			var name = 'Mozilla';
+			function displayName() {
+				console.log(name)
+			}
+			return displayName;
+			// displayName();
+		}
+
+		// makeFunc()
+
+		var myFunc = (makeFunc())();
+		// myFunc()
+		// console.log (typeof makeFunc());
+		
+	</script>
+</html>
